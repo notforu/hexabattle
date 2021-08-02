@@ -3,6 +3,13 @@
 	"commands": [
 		{
 			"commandKind": "bulk",
+			"name": "start",
+			"allowWarningsInSuccessfulBuild": true,
+			"enableParallelism": true,
+			"summary": "Start everything"
+		},
+		{
+			"commandKind": "bulk",
 			"name": "build",
 			"allowWarningsInSuccessfulBuild": true,
 			"enableParallelism": false,
