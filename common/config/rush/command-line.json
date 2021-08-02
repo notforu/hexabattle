@@ -1,0 +1,29 @@
+{
+	"$schema": "https://developer.microsoft.com/json-schemas/rush/v5/command-line.schema.json",
+	"commands": [
+		{
+			"commandKind": "bulk",
+			"name": "build",
+			"allowWarningsInSuccessfulBuild": true,
+			"enableParallelism": false,
+			"summary": "Build all packages"
+		},
+		{
+			"name": "prettier",
+			"commandKind": "global",
+			"summary": "Used by the pre-commit Git hook. This command invokes Prettier to reformat staged changes.",
+			"autoinstallerName": "rush-prettier",
+			"shellCommand": "pretty-quick --staged"
+		},
+		{
+			"name": "test",
+			"commandKind": "bulk",
+			"enableParallelism": true,
+			"summary": "Runs unit tests in every package, where they exists.",
+			"ignoreMissingScript": true,
+			"ignoreDependencyOrder": true,
+			"allowWarningsInSuccessfulBuild": true
+		}
+	],
+	"parameters": []
+}

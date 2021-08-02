@@ -1,0 +1,4 @@
+#!/bin/sh
+node common/scripts/install-run-rush.js build || exit $?
+node common/scripts/install-run-rush.js test || exit $?
+node common/scripts/install-run-rush.js prettier || exit $?

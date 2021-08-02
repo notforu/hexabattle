@@ -1,0 +1,32 @@
+{
+	"$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+	"rushVersion": "5.34.1",
+	"pnpmVersion": "4.14.4",
+	"pnpmOptions": {
+		"useWorkspaces": true
+	},
+	"nodeSupportedVersionRange": ">=12.13.0",
+	"ensureConsistentVersions": true,
+	"gitPolicy": {},
+	"repository": {
+		"url": "git@github.com:notforu/easycards.git",
+		"defaultBranch": "main"
+	},
+	"eventHooks": {
+		"preRushInstall": [],
+		"postRushInstall": [],
+		"preRushBuild": [],
+		"postRushBuild": []
+	},
+	"variants": [],
+	"projects": [
+		{
+			"packageName": "room",
+			"projectFolder": "apps/room"
+		},
+		{
+			"packageName": "web-client",
+			"projectFolder": "apps/web-client"
+		}
+	]
+}

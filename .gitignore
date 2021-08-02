@@ -1,0 +1,8 @@
+.idea/
+common/temp/
+common/autoinstallers/*/.npmrc
+**/.rush/temp/
+*.build.error.log
+*.build.log
+**/node_modules
+*.log
