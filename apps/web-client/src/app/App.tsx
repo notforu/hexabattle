@@ -6,7 +6,7 @@ import styles from './styles.module.scss';
 
 function App() {
 	return (
-		<div id="game" />
+		<div id={styles.game} />
 	);
 }
 
