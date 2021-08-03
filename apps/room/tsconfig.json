@@ -13,7 +13,6 @@
 		"strict": true,
 		"allowJs": true,
 		"strictNullChecks": false,
-		"types": ["types.d.ts"],
 		"forceConsistentCasingInFileNames": true
 	},
 	"include": [
