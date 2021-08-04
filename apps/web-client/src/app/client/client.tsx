@@ -2,9 +2,9 @@ import React, { useEffect, useRef } from 'react';
 import * as Colyseus from 'colyseus.js';
 import { ArrayXY, SVG } from '@svgdotjs/svg.js';
 import * as Honeycomb from 'honeycomb-grid';
-import { GameState } from '../../schema/GameState';
+import { GameState } from 'game-state/dist/schema/GameState';
 import styles from './styles.module.scss';
-import {Player} from "../../schema/Player";
+import { Player } from '../../schema/Player';
 
 interface IClientProps {}
 
