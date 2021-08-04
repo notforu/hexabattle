@@ -1,6 +1,6 @@
 import http from 'http';
 import { Room, Client } from 'colyseus';
-import { GameState, Player, Hex } from './state';
+import { GameState, Player, Hex } from 'game-state';
 import * as Honeycomb from 'honeycomb-grid';
 
 const MAX_PLAYERS = 2;

@@ -1,0 +1,20 @@
+{
+  "name": "game-state",
+  "version": "1.0.0",
+  "description": "Game state",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "",
+    "test": "",
+    "build": "tsc && npm run build:types",
+    "build:types": "npx schema-codegen src/index.ts --output ./dist/schema/ --ts"
+  },
+  "files": [
+    "dist/**"
+  ],
+  "dependencies": {
+    "@colyseus/schema": "~1.0.25"
+  },
+  "author": "",
+  "license": "ISC"
+}

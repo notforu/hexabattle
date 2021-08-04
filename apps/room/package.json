@@ -8,14 +8,14 @@
     "start": "ts-node src/index.ts",
     "start:dev": "ts-node-dev --watch \"src/**/*\" --respawn --transpile-only src/index.ts",
     "start:prod": "node dist/index.js",
-    "generate:schema": "npx schema-codegen src/state.ts --output ../hexabattle-client/src/schema/ --ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "colyseus": "~0.14.20",
     "@colyseus/schema": "~1.0.25",
+    "game-state": "workspace:*",
     "honeycomb-grid": "~3.1.8"
   },
   "devDependencies": {

@@ -6,4 +6,4 @@ common/autoinstallers/*/.npmrc
 *.build.log
 **/node_modules
 *.log
-apps/room/dist
+**/dist

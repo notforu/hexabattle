@@ -27,6 +27,10 @@
 		{
 			"packageName": "web-client",
 			"projectFolder": "apps/web-client"
+		},
+		{
+			"packageName": "game-state",
+			"projectFolder": "libs/game-state"
 		}
 	]
 }
